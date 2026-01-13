@@ -1,0 +1,95 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ================================
+# Django
+# ================================
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# media 
+media
+static
+
+# Migrations cache
+*/migrations/__pycache__/
+
+# ================================
+# Virtual Environment
+# ================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.*
+*.env
+
+# ================================
+# IDEs & Editors
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+**/__pycache__/
+**/__pycache__/\n*.rus
+__pycache__\n*.rus
+
+# ================================
+# Django Secrets
+# ================================
+secret_key.txt
+
+# ================================
+# Test & coverage
+# ================================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+
+# ================================
+# Swagger & API docs
+# ================================
+swagger.json
+swagger.yaml
+
+# ================================
+# Node (agar frontend bo‘lsa)
+# ================================
+node_modules/
+package-lock.json
+yarn.lock
